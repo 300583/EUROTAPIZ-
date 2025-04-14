@@ -10,7 +10,8 @@
 
   <header>
     <h1>Eurotapiz</h1>
-    <p>Spezialisten für Autosattlerei und Innenraumgestaltung</p>
+    <p>Spezialisten für Autosattlerei und 
+    Innenraumgestaltung</p>
   </header>
 
   <section class="about">
@@ -29,7 +30,7 @@
 
   <section class="contact">
     <h2>Kontakt</h2>
-    <p>Du hast eine Idee oder ein Projekt? Schreib uns über WhatsApp oder komm direkt vorbei!</p>
+    <p>Hast du eine Idee oder ein Projekt? Schreib uns über WhatsApp oder komm direkt vorbei!</p>
   </section>
 
   <footer>
