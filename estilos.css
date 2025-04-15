@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-https://github.com/300583/EUROTAPIZ-/blob/main/img/fondo-eurotapiz.jpg
+  background-image: url('https://raw.githubusercontent.com/300583/EUROTAPIZ-/main/img/fondo-eurotapiz.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
