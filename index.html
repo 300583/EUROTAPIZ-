@@ -1,59 +1,69 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Eurotapiz</title>
-  <link rel="stylesheet" href="estilos.css">
-</head>
-<body>
-  <header>
-    <h1>Eurotapiz</h1>
-    <p>Autos verschönern – Spezialisten für Autosattlerei</p>
-  </header>
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('imagen/fondo-eurotapiz.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
 
-  <section id="ueber-uns">
-    <h2>Über uns</h2>
-    <p>
-      Bei Eurotapiz verwandeln wir den Innenraum Ihres Fahrzeugs mit hochwertiger Polsterung, individueller Gestaltung und einzigartigem Stil. Wir arbeiten mit erstklassigen Materialien und viel Liebe zum Detail.
-    </p>
-  </section>
+header {
+  background-color: #00FF00;
+  color: #000;
+  text-align: center;
+  padding: 20px;
+}
 
-  <section id="leistungen">
-    <h2>Unsere Leistungen</h2>
-    <ul>
-      <li>Autositzreparatur & -polsterung</li>
-      <li>Türverkleidung & Dachhimmel neu beziehen</li>
-      <li>Lederrestauration & -lackierung</li>
-      <li>Personalisierung & Komplett-Tapizierung</li>
-      <li>Lenkradbezug & Autoreinigung</li>
-      <li>Tuning für ein einzigartiges Design</li>
-    </ul>
-  </section>
+h2 {
+  color: #00FF00;
+  font-size: 1.8em;
+}
 
-  <section id="galerie">
-    <h2>Galerie</h2>
-    <div class="galeria">
-      <img src="imagenes/volante_azul_rojo.jpeg" alt="Trabajo Eurotapiz 1">
-      <img src="imagenes/techo_colores.jpeg" alt="Trabajo Eurotapiz 2">
-      <img src="imagenes/volante_azul_celeste.jpeg" alt="Trabajo Eurotapiz 3">
-      <img src="imagenes/volante_brabus.jpeg" alt="Trabajo Eurotapiz 4">
-      <img src="imagenes/volante_tesla.jpeg" alt="Trabajo Eurotapiz 5">
-      <img src="imagenes/volante_negro_rojo.jpeg" alt="Trabajo Eurotapiz 6">
-      <img src="imagenes/volante_blanco.jpeg" alt="Trabajo Eurotapiz 7">
-      <img src="imagenes/asientos_naranja.jpeg" alt="Trabajo Eurotapiz 8">
-    </div>
-  </section>
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
 
-  <section id="kontakt">
-    <h2>Kontakt</h2>
-    <p><strong>Oswaldo Lozano</strong> – Sattler & Autosattler</p>
-    <p>Adresse: Lö dorfel Straße 70, Solingen</p>
-    <p>WhatsApp: <a href="https://wa.me/491622107744" target="_blank">+49 162 2107744</a></p>
-    <p>Instagram: <a href="https://instagram.com/eurotapiz1983" target="_blank">@eurotapiz1983</a></p>
-    <img class="qr" src="imagenes/qr_instagram.jpeg" alt="Instagram QR">
-  </section>
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
 
-  <a href="https://wa.me/491622107744" class="whatsapp-fijo" target="_blank">WhatsApp</a>
-</body>
-</html>
+.gallery img {
+  width: 100%;
+  border: 2px solid #00FF00;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+section, footer {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8); /* black overlay for better readability */
+  margin: 10px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+.whatsapp-button {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.6);
+}
