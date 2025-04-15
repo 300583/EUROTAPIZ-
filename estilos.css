@@ -43,7 +43,7 @@ ul {
 
 section, footer {
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semitransparente */
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 footer {
