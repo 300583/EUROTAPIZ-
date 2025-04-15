@@ -41,7 +41,7 @@ ul {
   box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
 }
 
-section {
+section, footer {
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.8);
 }
@@ -49,8 +49,7 @@ section {
 footer {
   text-align: center;
   font-size: 0.9em;
-  color: #ccc;
-  padding: 10px;
+  color: white;
 }
 
 .whatsapp-button {
